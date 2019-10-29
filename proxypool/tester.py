@@ -2,6 +2,7 @@ import asyncio
 import aiohttp
 import time
 import sys
+import aiohttp.client_exceptions
 try:
     from aiohttp import ClientError
 except:
